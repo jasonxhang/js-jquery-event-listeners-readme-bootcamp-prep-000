@@ -4,6 +4,12 @@ function getIt() {
   })
 }
 
+function frameIT() {
+  $("img").on("load", function () {
+    
+  })
+}
+
 $(document).ready(function(){
   getIt();
 
