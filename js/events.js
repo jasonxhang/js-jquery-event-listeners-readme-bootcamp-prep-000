@@ -7,7 +7,7 @@ function getIt() {
 function frameIT() {
   $("img").on("load", function () {
     element.classList.add("tasty");
-    element..style.border
+    element.style.border = "#FF0000"
   })
 }
 
