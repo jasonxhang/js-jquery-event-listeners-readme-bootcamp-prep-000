@@ -7,7 +7,12 @@ function getIt() {
 function frameIt() {
   $("img").on("load", function () {
     element.classList.add("tasty");
-    element.style.border = "#FF0000"
+  })
+}
+
+function pressIt() {
+  $(input).on("keydown", function(key) {
+    if
   })
 }
 
